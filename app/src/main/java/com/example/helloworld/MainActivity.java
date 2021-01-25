@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
     }
     public class Button {
         String but = "Кнопка";
-
+        Integer but2 = 23;
     }
 }
