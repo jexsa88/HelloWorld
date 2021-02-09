@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">Hello World</string>
+    <string name="app_name">Songs lyrics 1.0</string>
     <string name="lyrics1"></string>
+    <string name="lyrics2"></string>
 </resources>
