@@ -21,7 +21,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnActTwo"
         android:layout_width="354dp"
         android:layout_height="52dp"
         android:text="Меню выбора популярных песен"
