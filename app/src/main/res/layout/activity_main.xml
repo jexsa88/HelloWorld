@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#78dbe2"
+    android:background="#DBF3F4"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="195dp"
-        android:layout_height="61dp"
+        android:layout_width="260dp"
+        android:layout_height="126dp"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="Тексты песен"
+        android:text="Lyrics your favorite songs"
         android:textSize="70px"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,14 +22,17 @@
 
     <Button
         android:id="@+id/btnActTwo"
-        android:layout_width="354dp"
-        android:layout_height="52dp"
+        android:layout_width="223dp"
+        android:layout_height="103dp"
         android:text="Меню выбора популярных песен"
+        app:backgroundTint="#5976BF"
+        app:icon="@android:drawable/ic_media_play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -40,5 +43,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnActTwo"
+        app:layout_constraintVertical_bias="0.684"
         app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Избранное"
+        app:backgroundTint="@color/teal_700"
+        app:icon="@android:drawable/star_big_on"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnActTwo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MosielevAV Inc."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.948"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
 </androidx.constraintlayout.widget.ConstraintLayout>
